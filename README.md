@@ -41,13 +41,18 @@ But it does not work in Youtube to skip forward.
 
 ## Details
 
-All findings are collected in [Keymapping.md]().
+All findings are collected in [Keymapping.md](Keymapping.md).
 
 If you want to adjust this project for your own devices
-see the [Makefile]() that automates the installation for my Norwii N27.
+see the [Makefile](Makefile) that automates the installation for my Norwii N27.
 
 ## Installation
-This only works if you have the Norwii N27 `3243:0111`.
+Currently the key mapping works using a hwdb file which needs to to be copied to
+`/etc/udev` (and thus requires root access).
+
+The [Makefile](Makefile) implements installation and activation of such a file
+for the Norwii N27 (vendor-device ID: `3243:0111`).
+
 ```
 make install reload -n    # review what the installation will do.
 sudo make install reload  # install and load the hwdb file.
