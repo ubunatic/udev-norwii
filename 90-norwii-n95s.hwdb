@@ -1,0 +1,21 @@
+evdev:input:b0003v3243p0122*
+ KEYBOARD_KEY_70004=reserved  # side up (key 2) / pointer release
+ KEYBOARD_KEY_70008=o  # side down
+ KEYBOARD_KEY_7000f=reserved  # pointer press
+ KEYBOARD_KEY_70052=p  # left tap (mode 1)
+ KEYBOARD_KEY_70051=n  # right tap (mode 1)
+ KEYBOARD_KEY_70050=p  # left tap (mode 2)
+ KEYBOARD_KEY_7004f=n  # right tap (mode 2)
+ KEYBOARD_KEY_7004b=p  # left tap (mode 3)
+ KEYBOARD_KEY_7004e=n  # right tap (mode 3)
+ KEYBOARD_KEY_70013=reserved  # left hold (1st hold) / side up (key 1)
+ KEYBOARD_KEY_70029=reserved  # left hold (2nd hold)
+ KEYBOARD_KEY_70005=b  # right hold (all the time)
+ KEYBOARD_KEY_70028=reserved  # disable enter
+ KEYBOARD_KEY_7003e=reserved  # disable f5
+ KEYBOARD_KEY_700e0=reserved  # disable left ctrl
+ KEYBOARD_KEY_700e1=reserved  # disable left shift
+ KEYBOARD_KEY_700e2=reserved  # disable left alt
+ KEYBOARD_KEY_700e3=reserved  # disable left meta
+ KEYBOARD_KEY_c00ea=p  # volume down
+ KEYBOARD_KEY_c00e9=n  # volume up

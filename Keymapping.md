@@ -62,8 +62,3 @@ evdev:input:b0003v3243p0111*
 ```
 
 Put this to a new file `/etc/udev/hwdb.d/90-norwii.hwdb`.
-
-## Make Reusable
-
-* commandified all identified scripts as [Makefile]() commands
-* added key mapping as installable hwdb file [90-norwii.hwdb]()

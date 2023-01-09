@@ -1,3 +1,0 @@
-evdev:input:b0003v3243p0111*
- KEYBOARD_KEY_70052=left    # map [^] to LEFT
- KEYBOARD_KEY_70051=right   # map [v] to RIGHT

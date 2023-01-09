@@ -21,13 +21,13 @@ reload:
 
 show:
 	ls  /etc/udev/hwdb.d
-	cat /etc/udev/hwdb.d/90-norwii.hwdb
+	cat /etc/udev/hwdb.d/90-norwii-n95s.hwdb
 
 uninstall:
-	rm -f /etc/udev/hwdb.d/90-norwii.hwdb
+	rm -f /etc/udev/hwdb.d/90-norwii-n95s.hwdb
 
 install:
-	cp 90-norwii.hwdb /etc/udev/hwdb.d
+	cp 90-norwii-n95s.hwdb /etc/udev/hwdb.d
 
 evtest:
 	evtest $(DEVICE)
